@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Sign In - Prime Wallet Bank</title>
+  <title>Create Account - Prime Wallet Bank</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -13,21 +13,30 @@
     </header>
 
     <main class="pw-main">
-      <h1>Sign In</h1>
-      <p>Access your Prime Wallet Bank account</p>
+      <h1>Create Your Account</h1>
+      <p>Secure Registration — All Fields Required</p>
 
       <form class="pw-form">
         <label>Email Address</label>
         <input type="email" placeholder="yourname@email.com" required />
 
-        <label>Password</label>
-        <input type="password" placeholder="Enter your password" required />
+        <label>Phone Number</label>
+        <input type="tel" placeholder="+1 XXX XXX XXXX" required />
 
-        <button class="pw-btn pw-btn-primary">Sign In</button>
+        <label>Date of Birth</label>
+        <input type="date" required />
+
+        <label>Create Password</label>
+        <input type="password" placeholder="8+ characters" required />
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Re-enter your password" required />
+
+        <button class="pw-btn pw-btn-primary">Submit for Admin Approval</button>
       </form>
 
       <p class="pw-link">
-        Don't have an account? <a href="register.html">Create one now</a>
+        Already have an account? <a href="signin.html">Sign In</a>
       </p>
     </main>
 
