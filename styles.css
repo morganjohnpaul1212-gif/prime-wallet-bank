@@ -1,0 +1,90 @@
+.pw-body {
+  font-family: system-ui, sans-serif;
+  background: #f5f8ff;
+  color: #0b1b3b;
+}
+
+.pw-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.pw-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.pw-logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.pw-main h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.pw-main h2 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.pw-main p {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.pw-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pw-btn {
+  display: block;
+  text-align: center;
+  padding: 12px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.pw-btn-primary {
+  background: #0b5ed7;
+  color: #fff;
+}
+
+.pw-btn-secondary {
+  background: #fff;
+  color: #0b5ed7;
+  border: 1px solid #0b5ed7;
+}
+
+.pw-footer {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.pw-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pw-form input {
+  padding: 10px;
+  border: 1px solid #cbd3e0;
+  border-radius: 6px;
+}
+
+.pw-note {
+  font-size: 0.85rem;
+  color: #0b1b3b;
+  background: #e9f1ff;
+  padding: 10px;
+  border-radius: 6px;
+}
